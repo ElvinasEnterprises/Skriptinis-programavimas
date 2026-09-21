@@ -1,0 +1,12 @@
+% Elvinas Bražionis EDIf-25/2
+% Laboratorinis darbas atliktas: 2025-09-21
+
+a = 5:2:34
+b = exp(a)
+c = a ./ b
+d = c'
+
+A = [pi/2 3i ; log(2) 2*pi]
+B = [exp(A(1,1)) exp(A(1,2))]
+C = [A ; B]
+eilute = sum(C
